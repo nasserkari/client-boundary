@@ -1,0 +1,26 @@
+{
+  "name": "client-boundary",
+  "version": "0.1.0",
+  "description": "Keep client code out of server components",
+  "keywords": [
+    "react",
+    "nextjs",
+    "client-only",
+    "client-components"
+  ],
+  "homepage": "https://github.com/nasserkari/client-boundary#readme",
+  "bugs": {
+    "url": "https://github.com/nasserkari/client-boundary/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nasserkari/client-boundary.git"
+  },
+  "license": "MIT",
+  "author": "Nasser Karinganire",
+  "type": "module",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
