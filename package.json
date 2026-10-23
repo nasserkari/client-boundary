@@ -20,7 +20,15 @@
   "author": "Nasser Karinganire",
   "type": "module",
   "main": "./src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  "exports": {
+    ".": {
+      "react-server": "./src/error.js",
+      "default": "./src/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src/index.js",
+    "src/error.js"
+  ]
 }
